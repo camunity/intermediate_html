@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hacking on HTML!</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+
+        <div id="top-bar">
+            <a class="page-logo" href="./index.html">hireme<span class="dotnow">.now</span></a>
+        </div>
+            <ul class="horizontal">
+                <li><a href="./index.html">First</a></li>
+                <li><a class="active" href="javascript:void(0)">Second</a></li>
+                <li><a href="javascript:void(0)">Third</a></li>
+                <li class="rightli" style="float:right"><a href="./random.html">Random</a></li>
+            </ul>
+        <div id="top">
+            <h1 id="test"> Let's Learn JavaScript!</h1>
+        </div>
+        <div class="container">
+            <p class="important">We use JavaScript to make our web pages interactive! Javascript can change HTML and CSS content.</p>
+            <p id="demo"></p>
+            <button type="button" onclick="document.getElementById('demo').innerHTML = 'Hello JavaScript!'">Click Me!</button>
+            <p id="after-demo">Since it is a programming language, we can also use JavaScript to perform complex computing actions such as defining variables, loops, and functions as well! Normally we create JavaScript files to define this complex behavior and we can add that file to our webpage!</p>
+        </div>
+        <div id="bottom"></div>
+            <h3 class="important">This Page is Connecting to a JavaScript File!</h3>
+            <h5 class="nonimportant"> Use the Google Dev Tools Console to Check for JavaScript Output!</h5>
+        <script src="index.js"></script>
+    </body>
+</html>
+

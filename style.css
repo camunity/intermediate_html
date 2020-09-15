@@ -1,0 +1,82 @@
+
+body {
+    font: 100% Lucinda Sans, Verdana;
+    margin: 20px;
+    background-color: #ffffff;
+}
+
+h1, h3, h5 {
+    color: #555555;
+}
+
+div {
+    display: block;
+}
+
+#top {
+    color: #84c754;
+    /* padding: 15px */
+}
+
+.important {
+    text-decoration: underline solid black;
+    font-weight: bold;
+}
+
+.container {
+    position: relative;
+    width: 80%;
+    overflow: auto;
+}
+
+.page-logo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 40px;
+    color: #555555;
+    display: block;
+}
+
+.dotnow {
+    color: #4caf50;
+}
+
+ul.horizontal {
+    display: block;
+    width: 80%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.horizontal li {
+    float: left;
+}
+
+ul.horizontal li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.horizontal li a:hover:not(.active) {
+    background-color: #000;
+}
+
+ul.horizontal li a.active {
+    background-color:#4CAF50;
+}
+
+#demo{
+    font-size: large;
+    color:#4CAF50;
+    text-decoration: underline solid black;
+}
+
+#after-demo{
+
+}
